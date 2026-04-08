@@ -1,3 +1,11 @@
+/* Body is the common css for whole webiste */
+/* a is to call all the href text in the whole website */
+body {
+  a {
+    text-decoration: none;
+  }
+}
+
 /* ═══════════════════════════════════════════════════════
    LAYOUT
 ═══════════════════════════════════════════════════════ */
@@ -265,8 +273,8 @@ section    { position: relative; }
 }
 
 .nav-logo-img {
-  width: 36px;
-  height: 36px;
+  width: 24px;
+  height: 24px;
   object-fit: contain;
 }
 
@@ -321,6 +329,7 @@ body.loaded .hero {
   color: var(--green); font-size: 10px; font-weight: 600;
   letter-spacing: 1.6px; text-transform: uppercase;
   padding: 5px 13px; border-radius: 50px;
+  margin-top: 25px;
   margin-bottom: 26px; width: fit-content;
   animation: heroFadeUp 0.6s cubic-bezier(0.16,1,0.3,1) 0s both;
 }
